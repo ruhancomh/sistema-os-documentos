@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="094D8EDA-2C88-1881-05E6-D733F311D32F" name="estados">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:55:56 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7CFCD37B-5BEA-EEA1-DDD2-5CB1911B57E1">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:37 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="ABBF0BA9-89E6-BDB9-20F2-B20A43A7957E">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:37 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uf" id="963C729F-9D1F-DF0C-E0C1-AFC26425B537">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:37 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CCAC7B1-664C-156B-2EE1-3D9986ACBC8D" name="estados_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:37 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CFCD37B-5BEA-EEA1-DDD2-5CB1911B57E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

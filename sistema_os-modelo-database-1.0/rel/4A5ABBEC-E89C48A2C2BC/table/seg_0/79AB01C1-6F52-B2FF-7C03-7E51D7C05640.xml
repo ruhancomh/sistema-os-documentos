@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79AB01C1-6F52-B2FF-7C03-7E51D7C05640" name="receptor_contatos">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:36:33 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6D6966BE-B7B9-6E5C-1583-F3D9871D8A8D">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="191239E4-D7F2-2A0D-2DBE-2822761E5552">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="0658B3F0-7C11-1235-8425-5C683DD685FA">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="86FAEF90-18D9-C8EA-4B7F-D0B03472F4D5">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="FB9D9E58-EF38-FAA1-E279-E8024DA49137">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transportadores_id" id="D4580DBE-ECE6-7B9C-74AD-D35F2C35D839">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:38:01 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="receptor_id" id="81FF6A5C-057A-48A4-F99F-011E7773FDFE">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:46:16 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D6DEE8C-D591-34E4-A76F-7B6B99A27CDA" referredColumn="4EF74A9C-3608-2D0C-35DE-255EDE3989A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3130109E-6AAC-9FA0-A474-888178C15663" name="traportador_contatos_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:37:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D6966BE-B7B9-6E5C-1583-F3D9871D8A8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="368253B6-8C40-5F85-DC9F-7961DC8177D7" name="receptor_contatos_receptor_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:46:16 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81FF6A5C-057A-48A4-F99F-011E7773FDFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

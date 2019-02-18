@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20E8F04D-6A7A-E3EB-5BD5-3BDDE6692A1B" name="funcionarios">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:09:27 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CA19B366-51AA-361E-AEF6-23FCDDC4AABC">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:10:28 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="ED2FDAA0-0B8A-727F-0749-62E13008EAF3">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:10:28 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="assinatura" id="7C813775-36D7-4A57-011E-E95DFE688378">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:10:28 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="funcionario_cargos_id" id="9A784AE2-1DAC-2417-84AB-E1BB4BABBB8B">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:02:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EED97014-F7ED-3058-59C2-56C4333C29E7" referredColumn="0B2788CE-4EFA-1ED8-3844-7C143A532253"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02B0DB3B-C64E-6894-F843-AAC6672CA3A1" name="vendedores_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:10:28 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA19B366-51AA-361E-AEF6-23FCDDC4AABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD5552B2-9554-727D-4A3A-38AE43BDD367" name="funcionarios_funcionario_cargos_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:02:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A784AE2-1DAC-2417-84AB-E1BB4BABBB8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

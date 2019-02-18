@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABB9DE73-AC8B-E746-1568-FCAEC575BF18" name="cidades">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:55:03 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F25F1B8C-C856-36A6-1F51-E623DA671551">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:55:54 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="18DECF8B-5A43-FD8A-3C37-9580FDFA916B">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:55:54 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estados_id" id="62A1EB52-BF0A-C8C5-D250-55B397C1493A">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:45 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE296EE8-24CF-7F08-1DA4-24CE94D4D9BD" referredColumn="7CFCD37B-5BEA-EEA1-DDD2-5CB1911B57E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B8A8F76-934C-834F-6C64-ADE8CF78AE98" name="cidades_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:55:54 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F25F1B8C-C856-36A6-1F51-E623DA671551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B30CD6D7-33F6-2415-C1DC-48DF376A0E6D" name="cidades_estados_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:56:45 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62A1EB52-BF0A-C8C5-D250-55B397C1493A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

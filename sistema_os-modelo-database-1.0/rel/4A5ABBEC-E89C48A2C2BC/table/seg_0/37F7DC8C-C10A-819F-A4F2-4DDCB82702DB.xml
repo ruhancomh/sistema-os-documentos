@@ -1,0 +1,266 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37F7DC8C-C10A-819F-A4F2-4DDCB82702DB" name="clientes">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:30:00 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="958A09EB-826F-63A5-050A-FC9BB8DB47F6">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:30:37 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="razao_social" id="9B769E97-77CF-9211-3037-DAB728F330DC">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:33:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_fantasia" id="A3B12B58-F581-01E1-7D8F-6EF20859691A">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:33:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="5553CD50-8E42-ED9A-1293-35CEA44AAEB1">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:33:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="5450688A-8983-60B8-262F-05E260B762D2">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:33:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inscricao_estadual" id="EC5BDABC-1EE8-A58B-CC63-5147DFB950AC">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:33:29 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone_principal" id="41EFD574-E7AD-3ACD-DE3A-A8D6ECC343BE">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:35:02 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fax" id="DE819C9D-CF6A-CFDE-ED81-F0F4D4A27217">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:35:26 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_licensa" id="AA4C5903-0A7E-B759-A0CA-2B3C90AFE0E8">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ativo" id="4E4CC6FF-3073-2566-7135-4DB2C4E2C015">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prospeccao" id="13305203-CE0C-0DDE-3255-E926EE539B2D">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentagem_comissao_vendedor" id="34AE6B54-1F8F-9CA4-A65C-CB6E69559B13">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obervacao" id="149985A4-0F8C-2D5F-A21E-BA12F9E62FE9">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="informacao_faturamento" id="61753FC3-784A-D5E9-2199-331BE8EA5D6D">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rastreabilidade_mri" id="68B372E4-2A3F-430B-0B3F-EEA89D3E0670">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="faturamento_mensal" id="258C2402-52CB-BE69-B794-F0F629399472">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrato_manutencao" id="463F4EFA-D8C4-5E61-65DD-44144DFFDC3A">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atividades_id" id="36BC56E9-D402-AE89-FC80-465151749C7B">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:46:01 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="055DA7FF-23CC-5806-297D-DB35A449880B" referredColumn="AAD5181F-A399-2C1D-D9E9-980D3CBF142C"/>
+</associations>
+</Column>
+<Column name="funcionarios_id" id="3F74F5BD-1F6E-43DD-D7BF-F8D78FF53CAF">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:02:01 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77479606-031F-C01B-B707-B244E1B7CC36" referredColumn="CA19B366-51AA-361E-AEF6-23FCDDC4AABC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51A85B8F-026A-F06B-706B-4343C6A33E80" name="clientes_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:30:37 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="958A09EB-826F-63A5-050A-FC9BB8DB47F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9921F21-8D7A-F628-7B09-9D323031DAD3" name="clientes_atividades_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 22:46:01 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36BC56E9-D402-AE89-FC80-465151749C7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28688B19-BDDF-DC35-AABF-3F94A345F04C" name="clientes_funcionarios_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:02:01 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F74F5BD-1F6E-43DD-D7BF-F8D78FF53CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

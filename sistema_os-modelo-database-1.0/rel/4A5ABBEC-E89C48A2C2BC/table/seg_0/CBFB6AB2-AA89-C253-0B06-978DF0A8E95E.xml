@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBFB6AB2-AA89-C253-0B06-978DF0A8E95E" name="residuos">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:48:11 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3D7E9AD2-6431-AF0C-03CD-C40A045680E7">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:48:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E85C03DC-11B8-0ADE-02A0-B5BC8A965FE8">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:48:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grupo" id="9DF19AB2-E390-6F38-FD19-2751A94C43E0">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:07:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="339AED58-EB91-342F-1DAD-DFDDF97BBF66">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:07:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="onu" id="AE66CE1F-A2B6-D027-E788-49EEC1001028">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:07:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tratamentos_id" id="7EA2287E-B32F-DD20-B1FE-677DBA0BF635">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:07:58 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA236000-0A49-179F-41FA-5F6C30DE60B7" referredColumn="795546B0-0F54-3D76-5622-F9FC6AEE439B"/>
+</associations>
+</Column>
+<Column name="residuo_classes_id" id="E744E3B2-49D0-55BA-7E6B-937089C0C926">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:09:05 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30C79305-1F58-D4AD-E619-B6F24BD56032" referredColumn="E82CDD87-AC1D-C91A-C982-31689DDF9700"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AB659E7-0603-ACE3-56B6-98825359059D" name="residuos_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:48:35 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D7E9AD2-6431-AF0C-03CD-C40A045680E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="841CC3A4-0498-0DAC-B16E-26910C51E609" name="residuos_tratamentos_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:07:58 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EA2287E-B32F-DD20-B1FE-677DBA0BF635"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="456951CE-F620-502C-6C9F-3AA4B0CFC0B3" name="residuos_residuo_classes_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:09:05 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E744E3B2-49D0-55BA-7E6B-937089C0C926"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

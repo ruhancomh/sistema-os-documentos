@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8472F90E-C05E-BD71-B55F-479CB175B6CC" containerWithKeyObject="511AAC47-EE0F-4A88-AFF5-EEABFDA465D5" localFKIndex="9C904310-3011-6D46-99D1-DC0C17BDEA35" name="receptor_residuos_residuos_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:48:52 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<referredTableLongName>residuos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CBFB6AB2-AA89-C253-0B06-978DF0A8E95E</referredTableID>
+<keyObject>9AB659E7-0603-ACE3-56B6-98825359059D</keyObject>
+<referredKeyID>9AB659E7-0603-ACE3-56B6-98825359059D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

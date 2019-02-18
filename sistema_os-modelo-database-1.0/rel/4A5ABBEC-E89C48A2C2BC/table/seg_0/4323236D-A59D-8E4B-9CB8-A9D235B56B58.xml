@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4323236D-A59D-8E4B-9CB8-A9D235B56B58" name="traportador_contatos">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:53:43 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="979370D4-2A71-42B6-6F59-1CF46FCCB8F5">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="9EC8B738-F2B7-29BB-83A7-538E423C9330">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo" id="338B66C3-301A-29B5-47F2-2B633C82A48C">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="B56600CA-82F8-E7EF-FB90-FA90671649FC">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="AAEA6BD4-8A4C-1760-832F-82E6959365C5">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transportadores_id" id="D46B2E6A-6FC4-E4E4-6C37-C4213EFD08A1">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:51 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF3D9B3B-833E-867D-2DD0-18F5C1076AB0" referredColumn="C1342CDA-C276-8C96-C8B4-55C87021B3AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F2B6ACC-BEED-BFE2-62B6-2FA9FACBB6C5" name="traportador_contatos_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="979370D4-2A71-42B6-6F59-1CF46FCCB8F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD77B86C-4C71-82B0-6A7A-10DA604C617A" name="traportador_contatos_transportadores_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:51 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D46B2E6A-6FC4-E4E4-6C37-C4213EFD08A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

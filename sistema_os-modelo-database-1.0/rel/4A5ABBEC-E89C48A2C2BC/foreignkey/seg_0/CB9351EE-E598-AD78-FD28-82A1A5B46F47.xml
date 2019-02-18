@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB9351EE-E598-AD78-FD28-82A1A5B46F47" containerWithKeyObject="CC09E112-C033-9AA2-54DE-BC2FFFBD80CA" localFKIndex="E9CF01F6-51CE-681F-AD46-258AB83C67AF" name="enderecos_esdereco_tipos_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:01:30 UTC</createdTime>
+<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<referredTableLongName>esdereco_tipos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6970184F-38A3-5E91-982C-3D48030F6172</referredTableID>
+<keyObject>9B72D1A8-2D58-F74C-1470-A3686C6641E1</keyObject>
+<referredKeyID>9B72D1A8-2D58-F74C-1470-A3686C6641E1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="3BA49EBB-9AB4-4EDA-BDA1-601395D31A6A" name="Sistema de OS" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4639F46F-8549-40EA-BA1D-39BF82B6C5EC" name="conversas">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:12:16 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EECC54AF-9CF5-9B25-4430-F87ECF0DAF94">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="FD686E2A-0A33-9D5F-EFF7-90704D9FFEB4">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="B3C70527-01F4-5B76-229B-A83E4F4CB61C">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clientes_id" id="44C9B224-CF1C-73C0-2FB3-9F1D4BCBF57C">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:18 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08E0579D-67D3-9063-DBF1-0D445885C0CB" referredColumn="958A09EB-826F-63A5-050A-FC9BB8DB47F6"/>
+</associations>
+</Column>
+<Column name="conversa_acoes_id" id="DE820856-AADC-E1E5-42A4-2C88ADE51B0B">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:14:10 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52F27327-DA21-F19C-1EC5-8AE48FCD3DF8" referredColumn="E607F902-B3DF-D899-DFAF-B000ACA3FC98"/>
+</associations>
+</Column>
+<Column name="funcionarios_id" id="D5C5334D-5098-8553-466D-39F82D34C939">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:01:49 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A2BA87B-BA33-AE91-43A9-9BF668F6575F" referredColumn="CA19B366-51AA-361E-AEF6-23FCDDC4AABC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A16800AC-DE83-5DDA-BDF0-63323BE8F046" name="conversas_PK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:08 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EECC54AF-9CF5-9B25-4430-F87ECF0DAF94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31E8890D-0ECC-0E2D-ECCF-1CB72D6B1EA7" name="conversas_clientes_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:13:18 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C9B224-CF1C-73C0-2FB3-9F1D4BCBF57C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB8EA848-E729-F3F0-037A-749EDDAE7AA9" name="conversas_conversa_acoes_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:14:10 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE820856-AADC-E1E5-42A4-2C88ADE51B0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE127EA0-4AA6-CA51-79A4-6BD7FC047350" name="conversas_funcionarios_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-18 00:01:49 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5C5334D-5098-8553-466D-39F82D34C939"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

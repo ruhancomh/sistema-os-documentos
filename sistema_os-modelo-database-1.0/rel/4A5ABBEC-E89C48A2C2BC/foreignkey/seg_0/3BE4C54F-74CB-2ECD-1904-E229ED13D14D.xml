@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BE4C54F-74CB-2ECD-1904-E229ED13D14D" containerWithKeyObject="9159DB28-4166-D98E-F89B-749A240F8955" localFKIndex="88EDBCC1-3BE3-BF5C-E7F0-9027AE0A659B" name="transportadores_cidades_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:53:05 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<referredTableLongName>cidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABB9DE73-AC8B-E746-1568-FCAEC575BF18</referredTableID>
+<keyObject>6B8A8F76-934C-834F-6C64-ADE8CF78AE98</keyObject>
+<referredKeyID>6B8A8F76-934C-834F-6C64-ADE8CF78AE98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

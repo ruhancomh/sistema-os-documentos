@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAB32692-2BD5-7268-5801-C599787B46D1" containerWithKeyObject="E994F83E-7601-D593-FA15-CF402B6F773C" localFKIndex="6B31F8E5-3107-43E2-047B-5B705DC3D57D" name="receptor_cidades_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:45:25 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<referredTableLongName>cidades</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABB9DE73-AC8B-E746-1568-FCAEC575BF18</referredTableID>
+<keyObject>6B8A8F76-934C-834F-6C64-ADE8CF78AE98</keyObject>
+<referredKeyID>6B8A8F76-934C-834F-6C64-ADE8CF78AE98</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

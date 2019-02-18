@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF3D9B3B-833E-867D-2DD0-18F5C1076AB0" containerWithKeyObject="4323236D-A59D-8E4B-9CB8-A9D235B56B58" localFKIndex="BD77B86C-4C71-82B0-6A7A-10DA604C617A" name="traportador_contatos_transportadores_FK">
+<createdBy>Ruhan</createdBy>
+<createdTime>2019-02-17 23:55:51 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<referredTableLongName>transportadores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9159DB28-4166-D98E-F89B-749A240F8955</referredTableID>
+<keyObject>8728BA67-4830-8FAC-7CCB-40DB89F2B720</keyObject>
+<referredKeyID>8728BA67-4830-8FAC-7CCB-40DB89F2B720</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
