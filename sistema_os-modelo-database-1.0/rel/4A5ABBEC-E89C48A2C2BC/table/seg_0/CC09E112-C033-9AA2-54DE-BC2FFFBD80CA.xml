@@ -18,27 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="tipo_fk" id="AF440B27-969F-C175-0340-1E08F593FB8D">
-<createdBy>Ruhan</createdBy>
-<createdTime>2019-02-17 22:53:42 UTC</createdTime>
-<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="logradouro" id="0FE30B80-3B11-9D03-A10C-39491310E15D">
-<createdBy>Ruhan</createdBy>
-<createdTime>2019-02-17 22:53:42 UTC</createdTime>
-<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250 CHAR</dataTypeSize>
-<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="bairro" id="590C88D1-6580-D289-9AEB-642A7D7B636E">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:53:42 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
@@ -65,8 +45,11 @@
 <createdTime>2019-02-17 22:53:42 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="observacao" id="6DF5D29B-37A4-B8F0-FEF5-E451AF08B5EA">
@@ -94,7 +77,7 @@
 <colAssociation fkAssociation="AF8FE182-FB04-1C16-44D6-797FE70DB321" referredColumn="958A09EB-826F-63A5-050A-FC9BB8DB47F6"/>
 </associations>
 </Column>
-<Column name="contatos_id" id="45A66409-7BB4-79B1-5F96-C9FE04FEB588">
+<Column name="cliente_contatos_id" id="45A66409-7BB4-79B1-5F96-C9FE04FEB588">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:54:39 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
@@ -122,7 +105,7 @@
 <colAssociation fkAssociation="01876F84-5968-5F5D-4957-480920193352" referredColumn="F25F1B8C-C856-36A6-1F51-E623DA671551"/>
 </associations>
 </Column>
-<Column name="esdereco_tipos_id" id="EE5DCB70-E9D8-A651-F844-14641CF2CE71">
+<Column name="endereco_tipos_id" id="EE5DCB70-E9D8-A651-F844-14641CF2CE71">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:01:30 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
@@ -134,6 +117,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="CB9351EE-E598-AD78-FD28-82A1A5B46F47" referredColumn="342D04DF-351D-2B74-9AA0-278E8E1835C1"/>
+</associations>
+</Column>
+<Column name="bairros_id" id="5613AB20-6E7E-9566-2252-505172D42BFE">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:26:51 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4B7DD7C-CA36-F31D-3BB1-F08791528F54" referredColumn="41E9DE84-9127-14D7-E0B3-6B9074A17E82"/>
 </associations>
 </Column>
 </columns>
@@ -187,6 +184,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EE5DCB70-E9D8-A651-F844-14641CF2CE71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1788054-3F29-FA61-2780-BB9D346A8FF5" name="cliente_enderecos_bairros_FK">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:26:51 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5613AB20-6E7E-9566-2252-505172D42BFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

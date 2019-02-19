@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="789A7388-AEDE-A9C0-9B0C-AC5970564B14" name="bairros">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:19 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="41E9DE84-9127-14D7-E0B3-6B9074A17E82">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:53 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="09C9E1CE-4DA1-6E28-FFD8-7A730540CD6C">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:53 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidades_id" id="1B553C4B-C035-40FF-645A-338B75014F81">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:58 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E440B944-4B0C-681C-F63E-C9FD75D6B660" referredColumn="F25F1B8C-C856-36A6-1F51-E623DA671551"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B6CF2CA-639E-3027-DD58-B041E8523E6F" name="bairros_PK">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:53 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41E9DE84-9127-14D7-E0B3-6B9074A17E82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="529F85FC-CD1F-D265-392E-08FCAD0490B3" name="bairros_cidades_FK">
+<createdBy>ruhan</createdBy>
+<createdTime>2019-02-18 23:24:58 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B553C4B-C035-40FF-645A-338B75014F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

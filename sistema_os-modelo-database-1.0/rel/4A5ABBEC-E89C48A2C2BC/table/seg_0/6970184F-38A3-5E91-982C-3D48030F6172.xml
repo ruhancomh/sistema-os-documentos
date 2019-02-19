@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6970184F-38A3-5E91-982C-3D48030F6172" name="esdereco_tipos">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6970184F-38A3-5E91-982C-3D48030F6172" name="endereco_tipos">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:00:29 UTC</createdTime>
-<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <ordsAlias>table_10</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -11,7 +11,7 @@
 <Column name="id" id="342D04DF-351D-2B74-9AA0-278E8E1835C1">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:01:18 UTC</createdTime>
-<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -21,7 +21,7 @@
 <Column name="descricao" id="B4967E3D-3F57-E112-DF0D-F4D3F6EBD36B">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:01:18 UTC</createdTime>
-<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -34,7 +34,7 @@
 <ind_PK_UK id="9B72D1A8-2D58-F74C-1470-A3686C6641E1" name="esdereco_tipos_PK">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:01:22 UTC</createdTime>
-<ownerDesignName>modelo-relacional-1.0</ownerDesignName>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

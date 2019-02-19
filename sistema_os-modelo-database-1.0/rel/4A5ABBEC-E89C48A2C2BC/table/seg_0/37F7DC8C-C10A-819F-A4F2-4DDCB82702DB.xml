@@ -116,6 +116,7 @@
 <Column name="ativo" id="4E4CC6FF-3073-2566-7135-4DB2C4E2C015">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -127,6 +128,7 @@
 <Column name="prospeccao" id="13305203-CE0C-0DDE-3255-E926EE539B2D">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -138,12 +140,16 @@
 <Column name="porcentagem_comissao_vendedor" id="34AE6B54-1F8F-9CA4-A65C-CB6E69559B13">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<comment>ENUM</comment>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="obervacao" id="149985A4-0F8C-2D5F-A21E-BA12F9E62FE9">
@@ -171,6 +177,7 @@
 <Column name="rastreabilidade_mri" id="68B372E4-2A3F-430B-0B3F-EEA89D3E0670">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -182,6 +189,7 @@
 <Column name="faturamento_mensal" id="258C2402-52CB-BE69-B794-F0F629399472">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -193,11 +201,12 @@
 <Column name="contrato_manutencao" id="463F4EFA-D8C4-5E61-65DD-44144DFFDC3A">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 22:43:09 UTC</createdTime>
+<commentInRDBMS>ENUM</commentInRDBMS>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

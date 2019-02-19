@@ -92,7 +92,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3130109E-6AAC-9FA0-A474-888178C15663" name="traportador_contatos_PK">
+<ind_PK_UK id="3130109E-6AAC-9FA0-A474-888178C15663" name="traportador_contatos_PKv1">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:37:52 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
