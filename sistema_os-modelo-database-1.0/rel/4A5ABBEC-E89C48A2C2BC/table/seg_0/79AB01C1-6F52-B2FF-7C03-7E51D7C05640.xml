@@ -65,18 +65,7 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="transportadores_id" id="D4580DBE-ECE6-7B9C-74AD-D35F2C35D839">
-<createdBy>Ruhan</createdBy>
-<createdTime>2019-02-17 23:38:01 UTC</createdTime>
-<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="receptor_id" id="81FF6A5C-057A-48A4-F99F-011E7773FDFE">
+<Column name="receptores_id" id="81FF6A5C-057A-48A4-F99F-011E7773FDFE">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:46:16 UTC</createdTime>
 <ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>

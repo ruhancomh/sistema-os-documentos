@@ -89,18 +89,6 @@
 <ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bairro" id="A47B61D1-4105-6254-1B1E-2234B8E646D6">
-<createdBy>Ruhan</createdBy>
-<createdTime>2019-02-17 23:52:46 UTC</createdTime>
-<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>250 CHAR</dataTypeSize>
-<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="cep" id="A01085F9-2D45-F4FA-F51B-04A6A81A89AC">
 <createdBy>Ruhan</createdBy>
 <createdTime>2019-02-17 23:52:46 UTC</createdTime>
@@ -174,6 +162,20 @@
 <colAssociation fkAssociation="3BE4C54F-74CB-2ECD-1904-E229ED13D14D" referredColumn="F25F1B8C-C856-36A6-1F51-E623DA671551"/>
 </associations>
 </Column>
+<Column name="bairros_id" id="297C5067-5ECA-1EEB-94E9-1F340B577E64">
+<createdBy>root</createdBy>
+<createdTime>2019-02-20 00:39:02 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC60BC69-DCA8-17EE-8851-C739EAED38C6" referredColumn="41E9DE84-9127-14D7-E0B3-6B9074A17E82"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8728BA67-4830-8FAC-7CCB-40DB89F2B720" name="transportadores_PK">
@@ -195,6 +197,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="369691FF-5AA2-D6D5-EA92-2E9DE974C875"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96ACBB9D-681D-1838-92C2-5F52D08C5783" name="transportadores_bairros_FK">
+<createdBy>root</createdBy>
+<createdTime>2019-02-20 00:39:02 UTC</createdTime>
+<ownerDesignName>sistema_os-modelo-database-1.0</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="297C5067-5ECA-1EEB-94E9-1F340B577E64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
